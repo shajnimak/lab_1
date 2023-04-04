@@ -2,7 +2,12 @@
 import java.util.Scanner;
 
 public class Main {
-    public static void min(int N){
+    /*
+        @findMin - To find the minimum in a list
+        @param - integer number (N)
+        @return - the smallest array object(integer)
+    */
+    public static void findMin(int N){
         int[] array = new int[N];
         int min = 99999999;
         Scanner scanner = new Scanner(System.in);
@@ -17,6 +22,6 @@ public class Main {
         System.out.println("Welcome!");
         Scanner scanner = new Scanner(System.in);
         int N = scanner.nextInt();
-        min(N);
+        findMin(N);
     }
 }
