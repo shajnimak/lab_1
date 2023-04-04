@@ -1,7 +1,12 @@
 import java.util.Scanner;
 
 public class Main2 {
-    public static void av(int N){
+    /*
+        @findAverage - To find the average of a list
+        @param - integer number (N)
+        @return - average of a list(double)
+    */
+    public static void findAverage(int N){
         int[] array = new int[N];
         double sum = 0;
         Scanner scanner = new Scanner(System.in);
@@ -16,6 +21,6 @@ public class Main2 {
         System.out.println("Welcome!");
         Scanner scanner = new Scanner(System.in);
         int N = scanner.nextInt();
-        av(N);
+        findAverage(N);
     }
 }
