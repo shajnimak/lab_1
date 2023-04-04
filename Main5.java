@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main5 {
     /*
-        @findFactorial - find findFibonacci of number
+        @findFactorial - find Fibonacci of number
         @param - integer number (n)
         @return - integer number
     */
