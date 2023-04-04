@@ -2,9 +2,10 @@ import java.util.Scanner;
 
 public class Main6 {
     /*
-        @findPower - find the power of two numbers
-        @param - double number (a), integer number (n)
-        @return - powered value(double)
+        @findPower - find the power of two numbers;
+        @param1 - double number (a);
+        @param2 - integer number (n);
+        @return - powered value(double);
     */
     public static double findPower(double a, int n) {
         if (n == 0) {
