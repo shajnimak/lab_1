@@ -1,7 +1,12 @@
 import java.util.Scanner;
 
 public class Main3 {
-    public static void isPrime(int N){
+    /*
+        @isPrime - Checks for a prime
+        @param - integer number (N)
+        @return - void method, but we have string output
+    */
+    public static void findIsPrime(int N){
         if (N < 2) {
             System.out.println("Composite");
             return;
@@ -17,6 +22,6 @@ public class Main3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int N = scanner.nextInt();
-        isPrime(N);
+        findIsPrime(N);
     }
 }
