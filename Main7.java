@@ -6,7 +6,7 @@ public class Main7 {
         @param1 - integer array (array)
         @param2 - integer number (start) reverse start index
         @param3 - integer number (end) reverse end index
-        @return - reversed list
+        @return - reversed array
     */
     public static void getReverse(int[] arr, int start, int end) {
         if (start >= end) {
